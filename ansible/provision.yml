@@ -1,0 +1,7 @@
+---
+
+- hosts: environment-dev-*
+  roles:
+    - base
+    - postgres
+  sudo: yes
